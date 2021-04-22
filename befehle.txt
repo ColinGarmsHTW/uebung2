@@ -1,0 +1,14 @@
+git add *
+git commit -m "Text hinzugefügt"
+git push origin main
+
+
+git pull origin main
+
+
+https://www.edureka.co/blog/wp-content/uploads/2016/11/Git-Architechture-Git-Tutorial-Edureka-2.png
+
+http://practicalseries.com/1002-vcs/01-pages/02-02-concept/02-images/fig-02-01.svg
+
+gitname von Tutor: golemmoja
+
