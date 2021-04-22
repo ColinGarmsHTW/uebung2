@@ -1,10 +1,9 @@
 git add *
 git commit -m "Text hinzugefügt"
 git push origin main
-
-
 git pull origin main
 
+git remote add origin -LINK-
 
 https://www.edureka.co/blog/wp-content/uploads/2016/11/Git-Architechture-Git-Tutorial-Edureka-2.png
 
