@@ -12,6 +12,19 @@ public class Puzzles {
 	 */
 	
 	public int blackJack(int a, int b) {
+		if(a > 21 && b > 21) {
+			return 0 ;
+    }
+			if(a > 21){
+			 return b;
+			}else if(b > 21){
+			  return a;
+			} else if(a > b){
+			  return a;
+			} else if(a < b){
+			  return b;
+			}
+		
 		return 0;
 	}
 		
@@ -27,7 +40,18 @@ public class Puzzles {
 	 */
 	
 	public int luckySum(int a, int b, int c) {
-		  return 0;
+		  int sum = 0;
+		  
+		  if(a != 13){
+		  sum = sum + a;
+		  }
+		  if(a != 13 && b != 13){
+		  sum = sum + b;
+		  }
+		  if(b != 13 && c != 13 && a != 13){
+		  sum = sum + c;
+		  }
+		  return sum;
 	}
 
 		
